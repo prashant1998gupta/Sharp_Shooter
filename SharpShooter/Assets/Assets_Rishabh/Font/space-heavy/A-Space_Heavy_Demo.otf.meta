@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d4e14fda466cd644987c1f0a5657198f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - A*SPACE HEAVY Demo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b2beed96b3fbe494a8a6b25b1210618e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
