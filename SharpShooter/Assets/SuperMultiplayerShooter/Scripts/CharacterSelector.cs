@@ -19,7 +19,10 @@ namespace Visyde
 
         void Start()
         {
+            Debug.Log($"this is characterSlection {characters}");
             DataCarrier.characters = characters;
+
+            Debug.Log($"this is characterSlection {DataCarrier.characters}");
         }
 
         /// <summary>

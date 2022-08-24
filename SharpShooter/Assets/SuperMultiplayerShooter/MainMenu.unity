@@ -3546,9 +3546,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 114249736871919856, guid: 101b64a83c696b3469f6fa918a6b3c99, type: 3}
   characters:
-  - {fileID: 11400000, guid: 6427d78bf1389d74788454918ec9333a, type: 2}
-  - {fileID: 11400000, guid: 268648583183041469fdcd7314ecd99c, type: 2}
-  - {fileID: 11400000, guid: 6c87e78c3b0120c4f8ae44280950db0f, type: 2}
+  - {fileID: 11400000, guid: 7e0b585df08aa1546a4ea5aa9a971e1d, type: 2}
+  - {fileID: 11400000, guid: 7e0b585df08aa1546a4ea5aa9a971e1d, type: 2}
+  - {fileID: 11400000, guid: 7e0b585df08aa1546a4ea5aa9a971e1d, type: 2}
   content: {fileID: 1254514942}
   connector: {fileID: 232236245}
   mainMenu: {fileID: 232236242}
@@ -3577,14 +3577,14 @@ MonoBehaviour:
   minBotCreationTime: 1
   maxBotCreationTime: 4
   botPrefixes:
-  - Rob
-  - Mike
-  - Steve
-  - Hans
-  - Jay
-  - Gab
-  - Lea
-  - Dave
+  - Aman
+  - Vashu
+  - Vinit
+  - kakashi
+  - kunai
+  - rishu
+  - lauki
+  - riya
   characterSelector: {fileID: 232236244}
 --- !u!114 &232236246
 MonoBehaviour:
@@ -3664,10 +3664,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5e3a8eebf144fa42ad8faf026224181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterScreenPanel: {fileID: 0}
-  playerName: {fileID: 0}
-  nextButton: {fileID: 0}
-  mainPanel: {fileID: 0}
+  characterName: {fileID: 1621402769}
+  characterScreenPanel: {fileID: 15721190}
+  nextButton: {fileID: 430923919}
+  mainPanel: {fileID: 1565052391}
 --- !u!1 &238312745
 GameObject:
   m_ObjectHideFlags: 0
@@ -9846,10 +9846,10 @@ RectTransform:
   m_Father: {fileID: 1778978687}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 664.10504, y: -145}
+  m_SizeDelta: {x: 180, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &713019570
 MonoBehaviour:
@@ -13983,10 +13983,10 @@ RectTransform:
   m_Father: {fileID: 1778978687}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 449.40506, y: -145}
+  m_SizeDelta: {x: 180, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1017308843
 MonoBehaviour:
@@ -16439,7 +16439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1215579402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19560,10 +19560,10 @@ RectTransform:
   m_Father: {fileID: 1778978687}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 234.70505, y: -145}
+  m_SizeDelta: {x: 180, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452539046
 MonoBehaviour:
