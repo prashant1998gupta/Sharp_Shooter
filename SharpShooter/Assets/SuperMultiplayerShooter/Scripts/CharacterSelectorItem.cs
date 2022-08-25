@@ -19,7 +19,8 @@ namespace Visyde{
 		public Fillbar ms;
         public Image startingWeaponIcon;
 
-        [HideInInspector] public CharacterSelector cs;
+        //[HideInInspector] public CharacterSelector cs;
+         public CharacterSelector cs;
 
 		void Start () {
 			nameText.text = data.name;
@@ -30,6 +31,10 @@ namespace Visyde{
         }
 
 		public void Select(){
+
+			Debug.Log($"this is Select button and data value is {data.name}");
+			Debug.Log($"this is Select button and data value is {cs.name}");
+
 			cs.SelectCharacter (data);
 		}
 	}
