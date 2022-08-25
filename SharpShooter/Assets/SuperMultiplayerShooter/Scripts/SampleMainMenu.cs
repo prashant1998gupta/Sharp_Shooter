@@ -21,6 +21,13 @@ namespace Visyde
         public Button customMatchBTN;
         public GameObject findMatchCancelButtonObj;
         public GameObject findingMatchPanel;
+
+        // prashant code
+        public GameObject findingMatchPanelNewCanvas;
+        public Text matchmakingPlayerCountTextNewCanvas;
+
+        // prashant code
+
         public GameObject customGameRoomPanel;
         public Text matchmakingPlayerCountText;
         public InputField playerNameInput;
@@ -63,6 +70,7 @@ namespace Visyde
                 : "Connected! (" + PhotonNetwork.CloudRegion + ") | Ping: " + PhotonNetwork.GetPing();
             connectionStatusText.color = PhotonNetwork.IsConnectedAndReady ? Color.green : Color.yellow;
             matchmakingPlayerCountText.text = PhotonNetwork.InRoom ? Connector.instance.totalPlayerCount + "/" + PhotonNetwork.CurrentRoom.MaxPlayers : "Matchmaking...";
+            matchmakingPlayerCountTextNewCanvas.text = PhotonNetwork.InRoom ? Connector.instance.totalPlayerCount + "/" + PhotonNetwork.CurrentRoom.MaxPlayers : "Matchmaking...";
 
             // Handling buttons:
             customMatchBTN.interactable = !connecting;
@@ -93,6 +101,7 @@ namespace Visyde
         public void FindMatch(){
             // Enable the "finding match" panel:
             findingMatchPanel.SetActive(true);
+            findingMatchPanelNewCanvas.SetActive(true);
             // ...then finally, find a match:
             Connector.instance.FindMatch();
         }

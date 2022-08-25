@@ -17,6 +17,8 @@ namespace Visyde
         public Connector connector;
         public SampleMainMenu mainMenu;
 
+        public GameObject[] total_Characters;
+
         void Start()
         {
             Debug.Log($"this is characterSlection {characters}");
@@ -61,6 +63,23 @@ namespace Visyde
             }
 
             mainMenu.characterIconPresenter.sprite = data.icon;
+        }
+
+        public void OnButtonSelect(int id)
+        {
+            for (int i = 0; i < total_Characters.Length; i++)
+            {
+                if (id == i)
+                {
+                    total_Characters[i].GetComponentInChildren<CharacterButtonSelection>().enableImage.gameObject.SetActive(true);
+                    total_Characters[i].GetComponentInChildren<CharacterButtonSelection>().disableImage.gameObject.SetActive(false);
+                }
+                else
+                {
+                    total_Characters[i].GetComponentInChildren<CharacterButtonSelection>().enableImage.gameObject.SetActive(false);
+                    total_Characters[i].GetComponentInChildren<CharacterButtonSelection>().disableImage.gameObject.SetActive(true);
+                }
+            }
         }
     }
 }

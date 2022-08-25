@@ -8,7 +8,6 @@ namespace Visyde{
 
     [CreateAssetMenu(fileName = "New Character", menuName = "Visyde/Character Data")]
 	public class CharacterData : ScriptableObject {
-
 		public Sprite icon;
 		public int maxHealth = 100;
 		public float moveSpeed = 5;

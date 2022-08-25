@@ -12,12 +12,13 @@ namespace Visyde{
     public class CharacterSelectorItem : MonoBehaviour {
 
 		public CharacterData data;
-
+		public int Id;
 		public Text nameText;
 		public Image icon;
 		public Fillbar hp;
 		public Fillbar ms;
         public Image startingWeaponIcon;
+
 
         //[HideInInspector] public CharacterSelector cs;
          public CharacterSelector cs;
@@ -28,14 +29,19 @@ namespace Visyde{
 			hp.value = data.maxHealth;
 			ms.value = data.moveSpeed;
             startingWeaponIcon.sprite = data.startingWeapon.hudIcon;
-        }
+
+
+		}
 
 		public void Select(){
 
-			Debug.Log($"this is Select button and data value is {data.name}");
-			Debug.Log($"this is Select button and data value is {cs.name}");
-
 			cs.SelectCharacter (data);
+		}
+
+		public void CharacterSeletion()
+        {
+			Debug.Log($"this is characterSelection and id is {Id}");
+			cs.OnButtonSelect(Id);
 		}
 	}
 }
