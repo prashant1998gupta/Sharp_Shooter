@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SuperMultiplayerShooter/LoadingScreen.unity
     guid: d96221b30106d714b8d812b803d30a80
+  - enabled: 1
+    path: Assets/HeroEditor/MilitaryHeroes/Scenes/CharacterEditor [MH].unity
+    guid: 5f01e010822045899d9457b71a8a1492
+  - enabled: 1
+    path: Assets/HeroEditor/MilitaryHeroes/Scenes/TestRoom [MH].unity
+    guid: 6f140bac83604182b560d2a0af8668a7
   m_configObjects: {}
