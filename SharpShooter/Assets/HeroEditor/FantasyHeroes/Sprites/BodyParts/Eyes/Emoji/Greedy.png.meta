@@ -1,19 +1,39 @@
 fileFormatVersion: 2
 guid: 56cca8c3609c4ec8b2f95023d89dcc41
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Torso
-    21300002: ArmR
-    21300004: ArmL
-    21300006: Pelvis
-    21300008: ForearmR
-    21300010: ForearmL
-    21300012: Leg
-    21300014: Shin
-    21300016: HandL
-    21300018: HandR
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Torso
+  - first:
+      213: 21300002
+    second: ArmR
+  - first:
+      213: 21300004
+    second: ArmL
+  - first:
+      213: 21300006
+    second: Pelvis
+  - first:
+      213: 21300008
+    second: ForearmR
+  - first:
+      213: 21300010
+    second: ForearmL
+  - first:
+      213: 21300012
+    second: Leg
+  - first:
+      213: 21300014
+    second: Shin
+  - first:
+      213: 21300016
+    second: HandL
+  - first:
+      213: 21300018
+    second: HandR
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -31,6 +51,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -40,8 +64,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -62,11 +86,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 256
     resizeAlgorithm: 0
@@ -77,50 +105,55 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
-    compressionQuality: 50
+    compressionQuality: 100
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 512
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
-    compressionQuality: 50
+    compressionQuality: 100
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 512
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
-    compressionQuality: 50
+    compressionQuality: 100
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 512
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
-    compressionQuality: 50
+    compressionQuality: 100
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -140,6 +173,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -160,6 +194,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -180,6 +215,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -200,6 +236,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -220,6 +257,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -240,6 +278,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -260,6 +299,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -280,6 +320,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -300,6 +341,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -320,6 +362,7 @@ TextureImporter:
       tessellationDetail: -1
       bones: []
       spriteID: 
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -328,11 +371,26 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 6c6c0eb9d63a1f6418881c9ba3b8b29d
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ForearmL: 21300010
+      Torso: 21300000
+      HandL: 21300016
+      ArmR: 21300002
+      ArmL: 21300004
+      HandR: 21300018
+      ForearmR: 21300008
+      Leg: 21300012
+      Shin: 21300014
+      Pelvis: 21300006
   spritePackingTag: BodyParts
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

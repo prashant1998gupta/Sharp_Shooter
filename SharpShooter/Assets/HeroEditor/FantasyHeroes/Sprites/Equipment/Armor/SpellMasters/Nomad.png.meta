@@ -87,6 +87,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -475,6 +476,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      ForearmL: 21300028
+      Torso: 21300000
+      HandL: 21300034
+      SleeveR: 21300038
+      ArmR: 21300022
+      ArmL: 21300024
+      HandR: 21300036
+      ForearmR: 21300026
+      Finger: 21300040
+      Leg: 21300030
+      Shin: 21300032
+      Pelvis: 21300006
   spritePackingTag: Armor
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
