@@ -17,9 +17,9 @@ namespace Visyde
         public Joystick moveStick;
         public Joystick shootStick;
 
-        [Tooltip("The extent of the shootStick where shooting begins.")]
-        [Range(0.1f, 1f)]
-        public float shootingThreshold;
+		[Tooltip("The extent of the shootStick where shooting begins.")]
+		[Range(0.1f, 1f)]
+		public float shootingThreshold;
 
         [Header("Jumping using the Move Stick:")]
         public bool enableMoveStickJumping;
@@ -43,7 +43,7 @@ namespace Visyde
 
         // Shooting:
         [HideInInspector]
-        public bool shoot;
+        public bool shoot;              
         [HideInInspector]
         public float aimX;
         [HideInInspector]
@@ -66,21 +66,13 @@ namespace Visyde
 
             // Jumping (Mobile controls have 2 options, either use move stick as a jumping control when the 
             // Y axis is over the 'jumpingYStart' and 'jumpingThreshold', or simply use an on-screen button): 
-            if (mobileControls)
-            {
-                if (enableMoveStickJumping && (y >= jumpingYStart && moveStick.progress >= jumpingThreshold))
-                {
-                    Jump();
-                }
+            if (mobileControls){
+                if (enableMoveStickJumping && (y >= jumpingYStart && moveStick.progress >= jumpingThreshold)) Jump();
             }
-            else
-            {
-                if (Input.GetButton("Jump"))
-                {
-                    Jump();
+            else{
+                if (Input.GetButton("Jump")) Jump();
+            }
 
-                }
-            }
             // Shooting input:
             aimX = shootStick.xValue;
             aimY = shootStick.yValue;
@@ -91,16 +83,15 @@ namespace Visyde
                 showScoreboard = Input.GetKey(KeyCode.Tab);
             }
         }
-        void LateUpdate()
-        {
-            shoot = mobileControls ? shootStick.progress >= shootingThreshold && shootStick.isHolding : Input.GetButton("Fire1");
+        void LateUpdate(){
+            shoot = mobileControls? shootStick.progress >= shootingThreshold && shootStick.isHolding : Input.GetButton("Fire1");
         }
 
         // Jumping (can be called by an on-screen button):
         public void Jump()
         {
             if (jump != null)
-                jump.Invoke();
+            jump.Invoke();
         }
 
         // Holding a button to show/hide the scoreboard.
