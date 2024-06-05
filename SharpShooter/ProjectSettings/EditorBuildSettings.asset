@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/SuperMultiplayerShooter/Splash.unity
     guid: 351cc7c0978e8a04e9f1ab673b6162ff
   - enabled: 1
@@ -17,10 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SuperMultiplayerShooter/LoadingScreen.unity
     guid: d96221b30106d714b8d812b803d30a80
-  - enabled: 1
+  - enabled: 0
     path: Assets/HeroEditor/MilitaryHeroes/Scenes/CharacterEditor [MH].unity
     guid: 5f01e010822045899d9457b71a8a1492
-  - enabled: 1
+  - enabled: 0
     path: Assets/HeroEditor/MilitaryHeroes/Scenes/TestRoom [MH].unity
     guid: 6f140bac83604182b560d2a0af8668a7
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
